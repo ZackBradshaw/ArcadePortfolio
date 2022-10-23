@@ -1,0 +1,77 @@
+.navbar.is-info {
+    background-color: #026d6d;
+    color: #fff;
+}
+
+.navbar-brand-edit {
+  text-transform: uppercase;
+  margin-left: auto;
+  color: white;
+  font-size: 2em;
+  word-wrap: break-word;
+}
+
+.navbar-end .navbar-item {
+  text-transform: uppercase;
+  padding: 1em;
+  transform: skewx(-60deg);
+  transition: background 0.2s ease, color 0.2s ease;
+  color: white;
+  &.red {
+    background-color: $red;
+  }
+
+  &.yellow {
+    background-color: $yellow;
+  }
+
+  &.blue {
+    background-color: $blue;
+  }
+}
+
+.navbar-item span {
+  display: block;
+  transform: skewx(60deg) rotate(-30deg);
+  font-size: 1.5rem;
+}
+
+
+.navbar>.container {
+    align-items: stretch;
+    display: flex;
+    min-height: 3.25rem;
+    width: 100%;
+}
+
+.container {
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+.container {
+    max-width: 1344px;
+}
+
+.navbar-start {
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.navbar, .navbar-end, .navbar-menu, .navbar-start {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-end {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.navMenu {
+  align-items: stretch;
+  display: flex;
+}
