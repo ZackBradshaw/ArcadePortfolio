@@ -1,4 +1,3 @@
-import "../styles/variables.scss";
 import "../styles/Layout.scss";
 import "../styles/NavBar.scss";
 import type { AppProps } from "next/app";
