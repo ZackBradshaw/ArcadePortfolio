@@ -1,0 +1,50 @@
+.diagonal-box-footer {
+    padding: 1em;
+    transform: skewx(-30deg);
+    transition: background .2s ease,color .2s ease;
+    height: 100%;
+    width: 7em;
+    align-items: stretch;
+    &.red {
+        background-color: $red;
+    }
+    &.yellow{
+        background-color: $yellow;
+    }
+    &.blue{
+        background-color: $blue;
+    }
+}
+
+.footer{
+    background-color: #026d6d;
+    color: #fff;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 1500px;
+    margin: 0 auto;
+    left: calc(50% - 750px);
+} 
+
+.flex-on-me {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 150px;
+}
+
+.container {
+    flex-grow: 1;
+    position: relative;
+    width: auto;
+    height: 100%;
+}
