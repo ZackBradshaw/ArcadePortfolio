@@ -3,11 +3,7 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <nav
-      className="navbar is-fixed-to is-info"
-      role="navigation"
-      aria-label="main navigation"
-    >
+    <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="container">
         <div className="navbar-brand navbar-brand-edit ">
           <div className="navbar-start">

@@ -1,0 +1,27 @@
+.bezel {
+    align-items: stretch;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #01140b;
+    color: #fff;
+    height: 90vh;
+    width: 1500px;
+    top: 100px; 
+    left: calc(50% - 750px);
+}
+
+.screen {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    background: #233f47;
+    border-radius: 50%/10%;
+    color: #fff;
+    text-indent: .1em;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem 5em;
+}
