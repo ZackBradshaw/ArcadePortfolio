@@ -19,8 +19,9 @@
 .navbar-end .navbar-item {
   text-transform: uppercase;
   padding: 1em;
-  transform: skewx(-60deg);
+  transform: skewx(-58deg);
   transition: background 0.2s ease, color 0.2s ease;
+  width: 120px;
   color: white;
   &.red {
     background-color: $red;
