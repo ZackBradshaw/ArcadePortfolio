@@ -6,9 +6,9 @@ const IndexPage = () => (
     <div className="hero-boy" id="tv">
       <div className="section">
         <div className="container has-text-centered">
-          <p className="giant-text retro-font retro-text-shadow has-text-centered">
+          <h1 className="giant-text retro-font retro-text-shadow has-text-centered">
             Select your character
-          </p>
+          </h1>
         </div>
       </div>
       <div className="padding-top-4em character-select">

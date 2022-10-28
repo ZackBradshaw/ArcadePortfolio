@@ -12,6 +12,18 @@
     margin-left: -600px;
     padding-bottom: 30px;
     padding-left: 300px;
+    &:hover {
+        filter: grayscale(0) contrast(100%) brightness(100%);
+        &blue{
+            background-color: $blue;
+        }
+        &red{
+            background-color: $red;
+        }
+        &yellow{
+            background-color: $yellow;
+        }
+    }
 }
 
 img {
@@ -39,15 +51,12 @@ img {
     margin-left: 100px;
 }
 
-
-.has-text-centered {
-    text-align: center!important;
-}
-
 .turtle-text p {
     position: absolute;
     bottom: 0;
     right: 0;
+    color: #fff;
+    font-family: Press Start 2P;
 }
 
 .tile {
