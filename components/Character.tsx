@@ -1,22 +1,22 @@
 import React from "react";
 import Link from "next/link";
+import { ICharacter } from "../interfaces/Character";
 
-const Character = () => {
+const Character = (character: ICharacter) => {
   return (
-    <div>
-      <div className="tile is-parent mx-6">
-        <Link
-          href="projects"
-          className="tile is-child diagonal-box turtle-color-r"
-        >
+    <div className="tile is-parent mx-6">
+      <Link passHref href={character.url}>
+        <a className={`tile is-child diagonal-box + ${character.color}`}>
           <div className="turtle-text has-text-centered">
-            <p className="giext retro-font has-text-centered">Project</p>
+            <p className="text retro-font has-text-centered">
+              {character.text}
+            </p>
           </div>
-          <div className="turtle">
-            <img src="assets/projects.png"></img>
+          <div className="character">
+            <img src={character.img}></img>
           </div>
-        </Link>
-      </div>
+        </a>
+      </Link>
     </div>
   );
 };
